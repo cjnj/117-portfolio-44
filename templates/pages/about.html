@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block title %}Test Page{% endblock title %}
+{% load static %}
+{% block content %}
+
+
+<section class="about-section center-row">
+    <div class="about-image-container center-row">
+    <img src="{% static 'img/IMG_1266.JPG' %}" alt="my logo" />
+    </div>
+
+    <div class="about-description-container center-column">
+    <div class="center-column">
+        <h1>The Scrum Master</h1>
+        <h2>Corey Johnson</h2>
+    </div>
+
+    <p>
+        <p>As a Scrum Master, I'm akin to a conductor orchestrating a symphony of collaboration, where each team member plays a crucial role in harmonizing the delivery of value. My daily repertoire includes facilitating Scrum ceremonies with finesse, ensuring every voice is heard and every idea considered. Through coaching and mentoring, I guide my team in mastering the rhythms of Scrum, cultivating a culture of continuous improvement that resonates throughout our work.</p>
+        <p>Servant leadership is my baton, conducting with humility and empathy, always attuned to the needs of my team. I lead not from a position of authority, but from a place of support, removing impediments and nurturing an environment where each member can flourish.</p>
+        <p>Communication is my melody, weaving through the fabric of our collaboration, ensuring clarity and alignment among stakeholders, team members, and product owners. I listen intently, harmonizing perspectives and fostering a symphony of shared understanding.</p>
+        <p>In the face of discord, I embrace conflict as an opportunity for growth, deftly resolving tensions and guiding the team towards concord. Empathy is my guiding principle, as I seek to understand the perspectives of each member, tuning into their needs and aspirations.</p>
+        <p>When obstacles arise, I become the troubadour of problem-solving, orchestrating solutions with creativity and ingenuity. Decisions are made with precision, balancing the needs of the team with the overarching goals of the project, ensuring our journey stays on course.</p>
+        <p>Time is my metronome, keeping us in cadence as we march towards our sprint goals with purpose and efficiency. And through it all, I remain a perpetual student of the craft, continuously learning and evolving, embracing new rhythms and melodies to elevate our performance.</p>
+        <p>In the symphony of Scrum, each skill plays its part, culminating in a crescendo of collaboration, innovation, and excellence. As a Scrum Master, I am not just a conductor, but a composer, crafting an opus of success with my team, one sprint at a time.</p>
+    </p>
+
+    <div class="skill-list center-column">
+        <h2>My Skills</h2>
+
+            <div class="tag-container center-row">
+            <label>Facilitation</label>
+            <label>Coaching and Mentoring</label>
+            <label>Servant Leadership</label>
+            <label>Communication</label>
+            <label>Conflict Resolution</label>
+            <label>Empathy</label>
+            <label>Problem Solving</label>
+            <label>Decision Making</label>
+            <label>Time Management</label>
+            <label>Continuous learning</label>
+        </div>
+    </div>
+    </div>
+</section>
+
+{% endblock content %}

@@ -1,0 +1,86 @@
+/* -- about me section-- */
+.about-section{
+    padding: 2rem;
+}
+
+.about-image-container img{
+    width: 60%;
+}
+
+.about-image-container {
+    width: 40%;
+}
+
+.about-description-container {
+    width: 60%;
+}
+
+.about-description-container p {
+    width: 80%;
+    margin: 2rem 0px;
+}
+
+/* projects section */
+
+.projects-section{
+    padding: 2rem;
+    background-color: var(--secondary-color-900);
+}
+
+.project-card{
+    width: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: .5rem;
+    border-radius: 1%;
+}
+
+.project-card:hover{
+    opacity: .5;
+    border: solid 1px var(--secondary-color);
+}
+
+.project-card img{
+    width: 100%;
+    border-radius: 1%;
+}
+
+.skill-container{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-top: .5rem;   
+}
+
+a p:nth-child(2){
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin-top: .5rem 0px;
+}
+
+/* change the syle of the description and make it itralic */
+
+a p:nth-child(3){
+    font-style: italic;
+}
+
+/* year bolder, italic, letter spacing .2rem ,margin at the topand bottom of .5rem and 0 to the left and right */
+
+a p:nth-child(4){
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: .2rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.projects-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 4rem;
+    margin-top: 2rem;
+}
