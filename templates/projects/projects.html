@@ -19,10 +19,10 @@
                 <p>{{ project.year }}</p>
 
                 <div class="skills-container center-row">
-                    <label>skills</label>
-                    <label>skills</label>
-                    <label>skills</label>
-                    <label>skills</label>
+                    {% for skill in project.skill.all %}
+                    <label>{{ skill.name }}</label>
+                    {% endfor %}
+                   
                 </div>
             </a>
         </div>
